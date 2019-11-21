@@ -4,16 +4,37 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 600px;
+    margin: auto;
+}
 
 
+#containAll {
+
+}
 
 
+#head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#headName {
+    border-bottom: 2px solid black;
+}
+
+.navLinks {
+    display: flex;
+    flex-direction: row;
+}
 
 
-
-
-
-
+#portfolio {
+    display: none;
+}
 
 
 .footer {

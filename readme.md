@@ -1,6 +1,6 @@
 # Initial upload for new portfolio
 #### Paul Bernard-Hall
 
-### Will be a very minimal design with only a couple animations
+### Minimal design 
 
-### Black & White palate 
+### Black & White 
