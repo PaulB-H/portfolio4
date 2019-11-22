@@ -1,9 +1,9 @@
 $(document).ready(function(){
 
     function pageLoad () {
-        $("#head").fadeIn();
+        $("#head").fadeIn(600);
         setTimeout(function(){ 
-            $("#content").fadeIn(); 
+            $("#content").fadeIn(300); 
         }, 500);
     }
 
@@ -13,40 +13,33 @@ $(document).ready(function(){
         $(".aboutLink").addClass("active");
         $(".portfolioLink").removeClass("active");
         $(".contactLink").removeClass("active");
-        $("#portfolio").fadeOut();
-        $("#contact").fadeOut();
+        $("#portfolio").fadeOut(100);
+        $("#contact").fadeOut(100);
         setTimeout(function(){ 
-            $("#about").fadeIn(); 
+            $("#about").fadeIn(100); 
         }, 500);
     });
-
 
     $(".portfolioLink").click(function () {
         $(".portfolioLink").addClass("active");
         $(".aboutLink").removeClass("active");
         $(".contactLink").removeClass("active");
-        $("#about").fadeOut();
-        $("#contact").fadeOut();
+        $("#about").fadeOut(100);
+        $("#contact").fadeOut(100);
         setTimeout(function(){ 
-            $("#portfolio").fadeIn(); 
+            $("#portfolio").fadeIn(100); 
         }, 500);
     });
-
-
 
     $(".contactLink").click(function () {
         $(".contactLink").addClass("active");
         $(".aboutLink").removeClass("active");
         $(".portfolioLink").removeClass("active");
-        $("#about").fadeOut();
-        $("#portfolio").fadeOut();
+        $("#about").fadeOut(100);
+        $("#portfolio").fadeOut(100);
         setTimeout(function(){ 
-            $("#contact").fadeIn(); 
+            $("#contact").fadeIn(100); 
         }, 500);
     });
 
-
-
 });
-
-
