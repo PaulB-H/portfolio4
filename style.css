@@ -10,11 +10,9 @@ body {
     margin: auto;
 }
 
-
 #containAll {
 
 }
-
 
 #head {
     display: flex;
@@ -29,13 +27,51 @@ body {
 .navLinks {
     display: flex;
     flex-direction: row;
+    margin-bottom: 5px;
 }
 
+ul {
+    list-style: none;
+}
+
+ul, li {
+    /* reset the margin and padding */
+    margin: 1px;
+    padding: 10px;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: black;
+}
+
+.active {
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+#content {
+
+}
 
 #portfolio {
-    display: none;
+    /* display: none; */
 }
-
 
 .footer {
     position: fixed;
