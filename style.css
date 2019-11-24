@@ -8,7 +8,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     max-width: 600px;
     margin: auto;
-    background-image: url("gaming-pattern.png");
+    background-image: url("./images/gaming-pattern.png");
 }
 
 #head {
@@ -34,7 +34,6 @@ ul {
 }
 
 ul, li {
-    /* reset the margin and padding */
     margin: 1px;
     padding: 10px;
 }
@@ -58,6 +57,30 @@ li:hover {
 
 #content {
     margin: 10px;
+}
+
+#copyToClip {
+    display: block;
+}
+
+textarea {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    align-content: center;
+    resize: none; 
+    height: 20px; 
+    width: 215px;
+    background-color: #E6E6E6;
+    margin: 5px;
+}
+
+#copyToClipBtn {
+    font-family: 'Montserrat', sans-serif;
+    background-color: lightgray;
+    border-radius: 10px;
+    font-weight: bold;
+    height: 25px;
+    box-shadow: none;
 }
 
 .footer {

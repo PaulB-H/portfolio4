@@ -39,7 +39,12 @@ $(document).ready(function(){
         $("#portfolio").fadeOut(100);
         setTimeout(function(){ 
             $("#contact").fadeIn(100); 
+            $("#resume").fadeIn(100); 
         }, 500);
     });
+
+
+
+
 
 });
