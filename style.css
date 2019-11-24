@@ -59,6 +59,26 @@ li:hover {
     margin: 10px;
 }
 
+h3 {
+    border-bottom: 1px solid black;
+}
+
+.sectionImage {
+    float: left; 
+    margin: 5px; 
+    max-width: 150px; 
+    border-radius: 10px;
+}
+
+.sectionIcon {
+    float: left; 
+    margin: 5px; 
+    margin-right: 10px; 
+    width: 130px;
+    /* position: relative; 
+    top: -20px; */
+}
+
 #copyToClip {
     display: block;
 }
