@@ -103,6 +103,11 @@ textarea {
     box-shadow: none;
 }
 
+
+a.emailLink:hover {
+    font-weight: bolder;
+}
+
 .footer {
     position: fixed;
     left: 0;
