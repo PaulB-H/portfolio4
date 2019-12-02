@@ -6,7 +6,3 @@
 ### Black & White 
 
 
-
-
-
-

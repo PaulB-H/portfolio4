@@ -8,7 +8,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     max-width: 600px;
     margin: auto;
-    background-image: url("./images/gaming-pattern.png");
+    background-image: url("./images/email-pattern.png");
 }
 
 #head {
@@ -22,7 +22,9 @@ body {
 }
 
 
-/* NAV MENU */
+/************* 
+NAV MENU 
+*************/
 .navLinks {
     display: flex;
     flex-direction: row;
@@ -53,7 +55,9 @@ li:hover {
     border-radius: 10px;
 }
 
-/* END NAV MENU */
+/************* 
+END NAV MENU 
+*************/
 
 #content {
     margin: 10px;
@@ -74,7 +78,7 @@ h3 {
     float: left; 
     margin: 5px; 
     margin-right: 10px; 
-    width: 130px;
+    width: 110px;
     /* position: relative; 
     top: -20px; */
 }
@@ -117,4 +121,22 @@ a.emailLink:hover {
     color: darkgray;
     text-align: center;
     margin-top: 5px;
+}
+
+
+/************* 
+PORTFOLIO 
+*************/
+td:hover {
+    background-color: #e6e6e6;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+td {
+    border-bottom: 1px solid #ddd;
+}
+
+li {
+    list-style: none;
 }
