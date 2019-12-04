@@ -8,6 +8,9 @@ body {
     margin: auto;
     background-image: url("./images/email-pattern.png");
 }
+h1 {
+    margin-bottom: 5px;
+}
 h3 {
     border-bottom: 1px solid black;
 }
@@ -18,6 +21,7 @@ h3 {
 }
 #headName {
     border-bottom: 2px solid black;
+    margin-bottom: 0px;
 }
 #content {
     margin: 10px;
@@ -50,6 +54,20 @@ li:hover {
     border-radius: 10px;
 }
 /************* 
+PORTFOLIO 
+*************/
+td:hover {
+    background-color: #e6e6e6;
+    border-radius: 10px;
+    cursor: pointer;
+}
+td {
+    border-bottom: 1px solid #ddd;
+}
+li {
+    list-style: none;
+}
+/************* 
 Contact 
 *************/
 .sectionImage {
@@ -65,23 +83,6 @@ Contact
     width: 110px;
     /* position: relative; 
     top: -20px; */
-}
-a.emailLink:hover {
-    font-weight: bolder;
-}
-/************* 
-PORTFOLIO 
-*************/
-td:hover {
-    background-color: #e6e6e6;
-    border-radius: 10px;
-    cursor: pointer;
-}
-td {
-    border-bottom: 1px solid #ddd;
-}
-li {
-    list-style: none;
 }
 /************* 
 Footer
