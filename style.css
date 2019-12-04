@@ -2,26 +2,26 @@
     margin: 0;
     padding: 0;
 }
-
-
 body {
     font-family: 'Montserrat', sans-serif;
     max-width: 600px;
     margin: auto;
     background-image: url("./images/email-pattern.png");
 }
-
+h3 {
+    border-bottom: 1px solid black;
+}
 #head {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 #headName {
     border-bottom: 2px solid black;
 }
-
-
+#content {
+    margin: 10px;
+}
 /************* 
 NAV MENU 
 *************/
@@ -30,50 +30,34 @@ NAV MENU
     flex-direction: row;
     margin-bottom: 5px;
 }
-
 ul {
     list-style: none;
 }
-
 ul, li {
     margin: 1px;
     padding: 10px;
 }
-
 a:link, a:visited, a:hover, a:active {
     color: black;
     text-decoration: none;
 }
-
 li:hover {
     background-color: #E6E6E6;
     border-radius: 10px;
 }
-
 .active {
     background-color: #E6E6E6;
     border-radius: 10px;
 }
-
 /************* 
-END NAV MENU 
+Contact 
 *************/
-
-#content {
-    margin: 10px;
-}
-
-h3 {
-    border-bottom: 1px solid black;
-}
-
 .sectionImage {
     float: left; 
     margin: 5px; 
     max-width: 150px; 
     border-radius: 10px;
 }
-
 .sectionIcon {
     float: left; 
     margin: 5px; 
@@ -82,36 +66,26 @@ h3 {
     /* position: relative; 
     top: -20px; */
 }
-
-#copyToClip {
-    display: block;
-}
-
-textarea {
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    align-content: center;
-    resize: none; 
-    height: 20px; 
-    width: 215px;
-    background-color: #E6E6E6;
-    margin: 5px;
-}
-
-#copyToClipBtn {
-    font-family: 'Montserrat', sans-serif;
-    background-color: lightgray;
-    border-radius: 10px;
-    font-weight: bold;
-    height: 25px;
-    box-shadow: none;
-}
-
-
 a.emailLink:hover {
     font-weight: bolder;
 }
-
+/************* 
+PORTFOLIO 
+*************/
+td:hover {
+    background-color: #e6e6e6;
+    border-radius: 10px;
+    cursor: pointer;
+}
+td {
+    border-bottom: 1px solid #ddd;
+}
+li {
+    list-style: none;
+}
+/************* 
+Footer
+*************/
 .footer {
     position: fixed;
     left: 0;
@@ -122,21 +96,9 @@ a.emailLink:hover {
     text-align: center;
     margin-top: 5px;
 }
-
-
 /************* 
-PORTFOLIO 
+Fix for footer covering longer content
 *************/
-td:hover {
-    background-color: #e6e6e6;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-td {
-    border-bottom: 1px solid #ddd;
-}
-
-li {
-    list-style: none;
+.projectDisplay, #about {
+    margin-bottom: 25px;
 }
