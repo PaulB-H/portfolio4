@@ -9,12 +9,13 @@ $(document).ready(function(){
 
     pageLoad();
 
+    //************
+    // NAVBAR
+    //************ 
     $(".aboutLink").click(function () {
         $(".aboutLink").addClass("active");
-        $(".portfolioLink").removeClass("active");
-        $(".contactLink").removeClass("active");
-        $("#portfolio").fadeOut(100);
-        $("#contact").fadeOut(100);
+        $(".portfolioLink .contactLink").removeClass("active");
+        $("#portfolio #contact").fadeOut(100);
         setTimeout(function(){ 
             $("#about").fadeIn(100); 
         }, 500);
@@ -22,10 +23,8 @@ $(document).ready(function(){
 
     $(".portfolioLink").click(function () {
         $(".portfolioLink").addClass("active");
-        $(".aboutLink").removeClass("active");
-        $(".contactLink").removeClass("active");
-        $("#about").fadeOut(100);
-        $("#contact").fadeOut(100);
+        $(".aboutLink .contactLink").removeClass("active");
+        $("#about #contact").fadeOut(100);
         setTimeout(function(){ 
             $("#portfolio").fadeIn(100); 
         }, 500);
@@ -33,17 +32,16 @@ $(document).ready(function(){
 
     $(".contactLink").click(function () {
         $(".contactLink").addClass("active");
-        $(".aboutLink").removeClass("active");
-        $(".portfolioLink").removeClass("active");
-        $("#about").fadeOut(100);
-        $("#portfolio").fadeOut(100);
+        $(".aboutLink .portfolioLink").removeClass("active");
+        $("#about #portfolio").fadeOut(100);
         setTimeout(function(){ 
-            $("#contact").fadeIn(100); 
-            $("#resume").fadeIn(100); 
+            $("#contact #resume").fadeIn(100);
         }, 500);
     });
 
- 
-    
+    //************
+    // PROJECT NAV
+    //************ 
+
 
 });
